@@ -36,7 +36,7 @@ Steps as performed by the script:
   - Extracting only the measurements on the mean and standard deviation
     - selecting column names containing mean() and std()
   - Using descriptive activity names to name the ACTIVITIES in the data set
-  - Appropriately labeling the data set with descriptive variable name - this has already been done within point 3 above, when giving columns descriptive names
+  - Appropriately labeling the data set with descriptive VARIABLE name - this has already been done within point 3 above, when giving columns descriptive names
   - From the data set created by previous steps, creating a second, independent tidy data set with the average of each variable for each activity and each subject
 
 5. Finally, the resulting dataframe is output to a txt file.
