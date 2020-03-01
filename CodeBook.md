@@ -8,5 +8,14 @@ Information on the dataset can be found here: http://archive.ics.uci.edu/ml/data
 The source file is located here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 It contains number of files.
-Both test and training data have the same file structure:<br/>
-<li><strong>X_train.txt</strong> - contains the the accelerometer and gyroscope data - 561 variables (columns), and each row represents a record of measurements for a combination of a subject and an activity.</li>
+Both, test and training data have the same file structure. For training data, the relevant files are:<br/>
+<strong>X_train.txt</strong> - contains the the accelerometer and gyroscope data - 561 variables (columns), each row representing a record of measurements for a combination of a subject and an activity. There are 7352 observations (rows).
+However, the file does not contain the identification of subjects and activities.<br/>
+<strong>y_train.txt</strong> - contains only one variable - activity ID for each observation of X_train.txt, thus there are 7352 rows in this file as well.<br/>
+<strong>subject_train.txt</strong> - contains only one variable - subject ID for each observation of X_train.txt, thus there are 7352 rows in this file as well.
+
+For test data, there are X_test.txt, y_test.txt, and subject_test.txt files with the same logic.
+
+Then there are two files that are common for the training and test data:<br/>
+<strong>feature.txt</strong> - contains descriptive labels of the variables which are in X_train / X_test files. feature.txt thus contains 561 rows and two variables - feature (measurement) ID and its descriptive name.<br/>
+<strong>activity_labels.txt</strong> - contains descriptive lables of the activities performed by subjects (6 rows and 2 variables).
