@@ -27,3 +27,16 @@ Steps as performed by the script:
 2. Then all relevant files, as described above, are read into dataframes for further work.
 
 3. Variables in all dataframes are given descriptive names, for better orientation and referencing.
+
+4. Then the tasks are performed according to instructions
+  - Merging the training and the test sets to create one data set.
+    - merging TRAINING data (adding activity IDs and subject IDs to the training dataset)
+    - merging TEST data
+    - merging training and test data together
+  - Extracting only the measurements on the mean and standard deviation
+    - selecting column names containing mean() and std()
+  - Using descriptive activity names to name the ACTIVITIES in the data set
+  - Appropriately labeling the data set with descriptive variable name - this has already been done within point 3 above, when giving columns descriptive names
+  - From the data set created by previous steps, creating a second, independent tidy data set with the average of each variable for each activity and each subject
+
+5. Finally, the resulting dataframe is output to a txt file.
