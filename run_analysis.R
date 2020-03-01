@@ -1,5 +1,5 @@
 # Download file and Unzip file
-if (!file.exists("./UCI_HAR_Dataset")){
+if (!file.exists("./UCI HAR Dataset")){
     destFile <- "getdata_projectfiles_UCI HAR Dataset.zip"
     if (!file.exists(destFile)){
         download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile = destFile, mode='wb')
