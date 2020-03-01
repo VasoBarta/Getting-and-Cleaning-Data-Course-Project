@@ -24,6 +24,6 @@ Steps as performed by the script:
 
 1. First part of the script downloads the data, unpacks it, and installs and loads all necessary packages.
 
-2. Then all relevant files, as described above, are read and put into dataframes for further work.
+2. Then all relevant files, as described above, are read into dataframes for further work.
 
-3. Variables in all files are given descriptive names, for better orientation and referencing.
+3. Variables in all dataframes are given descriptive names, for better orientation and referencing.
