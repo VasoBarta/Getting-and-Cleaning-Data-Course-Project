@@ -19,3 +19,11 @@ For test data, there are X_test.txt, y_test.txt, and subject_test.txt files with
 Then there are two files that are common for the training and test data:<br/>
 <strong>feature.txt</strong> - contains descriptive labels of the variables which are in X_train / X_test files. feature.txt thus contains 561 rows and two variables - feature (measurement) ID and its descriptive name.<br/>
 <strong>activity_labels.txt</strong> - contains descriptive lables of the activities performed by subjects (6 rows and 2 variables).
+
+Steps as performed by the script:
+
+1. First part of the script downloads the data, unpacks it, and installs and loads all necessary packages.
+
+2. Then all relevant files, as described above, are read and put into dataframes for further work.
+
+3. Variables in all files are given descriptive names, for better orientation and referencing.
