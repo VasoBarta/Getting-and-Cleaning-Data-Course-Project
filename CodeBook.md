@@ -12,7 +12,7 @@ Both, test and training data have the same file structure. For training data, th
 <strong>X_train.txt</strong> - contains the accelerometer and gyroscope data - 561 variables (columns), each row representing a record of measurements for a combination of a subject and an activity. There are 7352 observations (rows).
 However, the file does not contain the identification of subjects and activities.<br/>
 <strong>y_train.txt</strong> - contains only one variable - <strong>activity ID</strong> for each observation in X_train.txt, thus there are 7352 rows in this file as well.<br/>
-<strong>subject_train.txt</strong> - contains only one variable - <strong>subject ID</strong> for each observation of X_train.txt, thus there are 7352 rows in this file as well.
+<strong>subject_train.txt</strong> - contains only one variable - <strong>subject ID</strong> for each observation in X_train.txt, thus there are 7352 rows in this file as well.
 
 For test data, there are X_test.txt, y_test.txt, and subject_test.txt files with the same logic.
 
